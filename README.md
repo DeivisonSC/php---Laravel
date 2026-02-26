@@ -1,6 +1,5 @@
 ## README: PHP + Laravel + Eloquent
 
-```markdown
 # API de Usuários - Laravel & Eloquent (DB Transactions)
 
 Desenvolvimento de API robusta utilizando o framework **Laravel**, demonstrando o uso de **Migrations** e o gerenciador de transações do **Eloquent ORM**.
