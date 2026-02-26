@@ -22,3 +22,15 @@ $novoUsuario = DB::transaction(function () use ($request) {
         'id_perfil' => $perfil->id
     ]);
 });
+```
+Como Executar:
+Instale as dependências: `composer install`
+
+Depois configure o `.env` com os dados do MySQL (Lembre-se de ajustar o link do banco de dados de acordo com o banco de dados que utilizar.)
+
+Gere a chave da aplicação: `php artisan key:generate`
+
+Rode as migrações: `php artisan migrate`
+
+Inicie o servidor: `php artisan serve`
+
