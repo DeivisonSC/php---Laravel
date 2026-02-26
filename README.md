@@ -5,7 +5,7 @@
 Desenvolvimento de API robusta utilizando o framework **Laravel**, demonstrando o uso de **Migrations** e o gerenciador de transações do **Eloquent ORM**.
 
 ## Tecnologias
-* PHP 8.x
+* PHP 8.3.30
 * Laravel (Framework)
 * Eloquent (ORM)
 * MySQL (via Laragon)
@@ -24,13 +24,17 @@ $novoUsuario = DB::transaction(function () use ($request) {
 });
 ```
 Como Executar:
-Instale as dependências: `composer install`
 
-Depois configure o `.env` com os dados do MySQL (Lembre-se de ajustar o link do banco de dados de acordo com o banco de dados que utilizar.)
+1. Instale as dependências: `composer install`
 
-Gere a chave da aplicação: `php artisan key:generate`
+2. Depois configure o `.env` com os dados do MySQL (Lembre-se de ajustar o link do banco de dados de acordo com o banco de dados que utilizar.)
 
-Rode as migrações: `php artisan migrate`
+3. Gere a chave da aplicação: `php artisan key:generate`
 
-Inicie o servidor: `php artisan serve`
+4. Rode as migrações: `php artisan migrate`
+
+5. Inicie o servidor: `php artisan serve`
+   
+Obs: Para o código em questão foi utilizado o Postman para testar as funcionalidades (GET, PUT, POST E DELETE).
+
 
