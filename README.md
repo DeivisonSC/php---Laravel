@@ -5,10 +5,10 @@
 Desenvolvimento de API robusta utilizando o framework **Laravel**, demonstrando o uso de **Migrations** e o gerenciador de transações do **Eloquent ORM**.
 
 ## Tecnologias
-* PHP 8.3.30
-* Laravel (Framework)
-* Eloquent (ORM)
-* MySQL (via Laragon)
+* PHP  8.3.30
+* Laravel  12v(Framework)
+* Eloquent  12v(ORM)
+* MySQL  (via Laragon)
 
 ## Integridade de Dados
 A API utiliza o método `DB::transaction` para envolver a criação múltipla de registros. Caso a criação do usuário falhe, o perfil também não é salvo, evitando dados órfãos no banco de dados:
