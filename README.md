@@ -6,8 +6,8 @@ Desenvolvimento de API robusta utilizando o framework **Laravel**, demonstrando 
 
 ## Tecnologias
 * PHP  8.3.30
-* Laravel  12v(Framework)
-* Eloquent  12v(ORM)
+* Laravel  12v (Framework)
+* Eloquent  12v (ORM)
 * MySQL  (via Laragon)
 
 ## Integridade de Dados
